@@ -1,0 +1,25 @@
+# Gradle / Android build output
+.gradle/
+build/
+**/build/
+captures/
+
+# Local machine configuration and secrets
+local.properties
+*.jks
+*.keystore
+*.store
+app/google-services.json
+
+# IDE files
+.idea/
+*.iml
+
+# Logs and crash dumps
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# OS files
+.DS_Store
+Thumbs.db

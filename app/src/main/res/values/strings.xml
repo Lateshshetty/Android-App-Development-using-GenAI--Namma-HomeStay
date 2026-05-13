@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma-HomeStay</string>
+    <string name="tagline">Empowering Rural Hospitality</string>
+
+    <!-- Auth -->
+    <string name="send_magic_link">Send Magic Link</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="verify">Verify</string>
+    <string name="otp_sent">OTP sent to your email</string>
+
+    <!-- Roles -->
+    <string name="i_am_host">I am a Host</string>
+    <string name="i_am_traveller">I am a Traveller</string>
+
+    <!-- Host -->
+    <string name="namaste_greeting">Namaste, %s!</string>
+    <string name="tonight_rate">₹%s / night</string>
+    <string name="todays_menu">Today\'s Menu</string>
+    <string name="photograph_dish">📷  Photograph a Dish</string>
+    <string name="publish_to_menu">Publish to Menu</string>
+    <string name="publish_homestay">Publish My Homestay</string>
+    <string name="dish_published">Dish published!</string>
+
+    <!-- Traveller -->
+    <string name="send_inquiry">Send Inquiry</string>
+    <string name="call_host">📞  Call Host</string>
+
+    <!-- General -->
+    <string name="loading">Loading…</string>
+
+    <!-- Bottom Nav tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_menu">Menu</string>
+    <string name="tab_inquiries">Inquiries</string>
+    <string name="tab_guide">Guide</string>
+    <string name="tab_stats">Stats</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_homestay_photo">Homestay photo</string>
+    <string name="cd_verified_badge">Verified badge</string>
+    <string name="cd_menu_photo">Menu item photo</string>
+</resources>

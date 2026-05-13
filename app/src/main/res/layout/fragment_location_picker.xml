@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Full-screen Map -->
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Fixed Crosshair at Center -->
+    <ImageView
+        android:id="@+id/crosshair"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:contentDescription="Location crosshair"
+        android:elevation="4dp"
+        android:src="@drawable/ic_crosshair" />
+
+    <!-- Bottom Panel with Coordinates and Confirm Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorSurface"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_md">
+
+        <TextView
+            android:id="@+id/txtCoordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Lat: 0.0000, Lng: 0.0000"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="14sp"
+            tools:text="Lat: 14.8000, Lng: 74.1000" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/touch_target"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:text="Confirm This Location"
+            android:textAllCaps="false"
+            app:backgroundTint="@color/colorPrimary"
+            app:cornerRadius="@dimen/button_radius" />
+
+    </LinearLayout>
+
+</FrameLayout>

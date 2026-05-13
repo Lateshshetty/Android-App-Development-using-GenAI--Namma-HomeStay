@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment android:id="@+id/loginFragment" android:name="com.nammahomestay.ui.auth.LoginFragment" android:label="Login" />
+    <fragment android:id="@+id/roleSelectionFragment" android:name="com.nammahomestay.ui.auth.RoleSelectionFragment" android:label="Role">
+        <action android:id="@+id/action_role_to_onboarding" app:destination="@id/onboardingFlowFragment" />
+        <action android:id="@+id/action_role_to_browse" app:destination="@id/browseFragment" />
+    </fragment>
+    <fragment android:id="@+id/onboardingFlowFragment" android:name="com.nammahomestay.ui.host.OnboardingFlowFragment" android:label="Onboarding">
+        <action android:id="@+id/action_onboarding_to_dashboard" app:destination="@id/hostDashboardFragment" />
+    </fragment>
+    <fragment android:id="@+id/hostDashboardFragment" android:name="com.nammahomestay.ui.host.HostDashboardFragment" android:label="Home" />
+    <fragment android:id="@+id/menuUploadFragment" android:name="com.nammahomestay.ui.host.MenuUploadFragment" android:label="Menu" />
+    <fragment android:id="@+id/inquiryBoxFragment" android:name="com.nammahomestay.ui.host.InquiryBoxFragment" android:label="Inquiries" />
+    <fragment android:id="@+id/localGuideHostFragment" android:name="com.nammahomestay.ui.host.LocalGuideHostFragment" android:label="Guide" />
+    <fragment android:id="@+id/locationPickerFragment" android:name="com.nammahomestay.ui.host.LocationPickerFragment" android:label="Pick Location" />
+    <fragment android:id="@+id/analyticsFragment" android:name="com.nammahomestay.ui.host.AnalyticsFragment" android:label="Stats" />
+    <fragment android:id="@+id/editProfileFragment" android:name="com.nammahomestay.ui.host.EditProfileFragment" android:label="Edit Profile" />
+    <fragment android:id="@+id/browseFragment" android:name="com.nammahomestay.ui.traveller.BrowseFragment" android:label="Browse">
+        <action android:id="@+id/action_browse_to_detail" app:destination="@id/homestayDetailFragment" />
+    </fragment>
+    <fragment android:id="@+id/homestayDetailFragment" android:name="com.nammahomestay.ui.traveller.HomestayDetailFragment" android:label="Details">
+        <action android:id="@+id/action_detail_to_inquiry" app:destination="@id/sendInquiryFragment" />
+    </fragment>
+    <fragment android:id="@+id/sendInquiryFragment" android:name="com.nammahomestay.ui.traveller.SendInquiryFragment" android:label="Send Inquiry" />
+</navigation>

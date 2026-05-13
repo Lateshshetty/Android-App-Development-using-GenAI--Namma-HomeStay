@@ -1,0 +1,1 @@
+Activity class {com.nammahomestay/com.nammahomestay.ui.common.SplashActivity} does not exist

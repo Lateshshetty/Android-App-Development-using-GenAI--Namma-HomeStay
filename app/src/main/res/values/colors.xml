@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="colorPrimary">#E07B39</color>
+    <color name="colorPrimaryDark">#C45E20</color>
+    <color name="colorPrimaryLight">#F4A261</color>
+    <color name="colorSecondary">#2D6A4F</color>
+    <color name="colorSecondaryLight">#52B788</color>
+    <color name="colorAccent">#F4A261</color>
+
+    <!-- Background & Surface -->
+    <color name="colorBackground">#FDF6EC</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorCream">#FFF8F0</color>
+    <color name="colorSurfaceElevated">#FFFAF4</color>
+
+    <!-- Text -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorTextPrimary">#1A1A1A</color>
+    <color name="colorTextSecondary">#6B6B6B</color>
+    <color name="colorTextHint">#AAAAAA</color>
+    <color name="colorTextOnDark">#FFFFFF</color>
+    <color name="colorTextOnDarkMuted">#CCffffff</color>
+
+    <!-- Status -->
+    <color name="colorVerified">#27AE60</color>
+    <color name="colorVerifiedBg">#E8F8EF</color>
+    <color name="colorUnverified">#BDBDBD</color>
+    <color name="colorError">#D62828</color>
+    <color name="colorWarning">#F4A261</color>
+
+    <!-- UI Components -->
+    <color name="colorCardBorder">#E8DDD0</color>
+    <color name="colorDivider">#F0E6D8</color>
+    <color name="colorInputBorder">#D4C4B0</color>
+    <color name="colorInputBorderFocused">#E07B39</color>
+    <color name="shimmer_base">#E8DDD0</color>
+    <color name="shimmer_highlight">#FDF6EC</color>
+    <color name="orange_dot">#FF6B00</color>
+
+    <!-- Navigation -->
+    <color name="colorNavBackground">#FFF8F0</color>
+    <color name="colorNavActive">#E07B39</color>
+    <color name="colorNavInactive">#AAAAAA</color>
+
+    <!-- Utility -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
